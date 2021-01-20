@@ -1,0 +1,70 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{authblk}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage[margin=1in, includefoot]{geometry}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{longtable}
+\usepackage{indentfirst}
+
+% Šablon je izradio Ilija Kalinić
+% Kontakt e-mail: ilija.kalinic@gmail.com ; kalinic.sw65.2019@uns.ac.rs
+%
+% NAPOMENA:
+%   Šablon se izradio na web aplikaciji Overleaf (overleaf.com). U slučaju da kompajlirate izvorni kod na lokalnoj mašini,
+%   možda će biti potrebno preuzeti dodatne module koji se koriste u ovom dokumentu.
+%
+
+
+\onehalfspacing
+
+\renewcommand{\contentsname}{Sadržaj} % Ovde možete podesiti ime sadržaja (podrazumevano je "Contents")
+
+\newcommand{\vecw}{\underline{\textit{w}}}
+\newcommand{\fw}{\textit{f}(\vecw)}
+
+\DeclareRobustCommand{\ftnlogo}{%
+  \begingroup\normalfont
+  \includegraphics[height=4\fontcharht\font`\B]{Images/FTN_LogoResized.png}%
+  \endgroup
+}
+
+\DeclareRobustCommand{\unslogo}{%
+  \begingroup\normalfont
+  \includegraphics[height=4\fontcharht\font`\B]{Images/UNS_LogoResized.png}%
+  \endgroup
+}
+
+\begin{document}
+    \begin{titlepage}
+        \begin{center}
+        \huge{\textbf{\ftnlogo Univerzitet u Novom Sadu \unslogo\\ [12pt]  Fakultet tehničkih nauka}}\\
+        \vspace{\fill}
+        \LARGE{\textbf{Dokumentacija za projektni zadatak}}\\
+        \vspace{35mm}
+        Januar 2021. % U ovoj liniji napisati mesec i godinu izrade projekta (dokumentacije)
+        \vspace{\fill}
+        \end{center}
+        \begin{flushright}
+            
+            Autor:\hfill Ime Prezime, Broj Indeksa/Godina upisa\\  % U ovoj liniji napisati ime, prezime i broj indeksa
+            \vspace{3pt}
+            Predmet:\hfill Ime predmeta\\  % U ovoj liniji napisati naziv predmeta
+            \vspace{3pt}
+            Tema projektnog zadatka:\hfill Tema zadatka  % U ovoj liniji napisati temu projektnog zadatka
+        \end{flushright}
+        
+    
+    \end{titlepage}
+    \tableofcontents
+    \thispagestyle{empty}
+    \cleardoublepage
+    \setcounter{page}{1}
+
+    \section{Uvod}
+    
+    
+\end{document}
